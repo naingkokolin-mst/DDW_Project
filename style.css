@@ -1,6 +1,6 @@
 /* Home page start */
 
-a {
+.navigation-bar a {
     text-decoration: none;
     /* background-color: rgb(128, 201, 243); */
     color: black;
@@ -14,7 +14,7 @@ a {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    transition: background-color 0.15s, font-size 0.15s, font-weight 0s;
+    transition: background-color 0.15s, font-size 0.15s;
     /* box-shadow: inset 0 0 0 0 #54b3d6;
     color: #54b3d6;
     margin: 0 -.25rem;
@@ -22,13 +22,9 @@ a {
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out; */
 }
 
-a:hover {
-    /* opacity: 0.8; */
+.navigation-bar a:hover {
     font-size: 20px;
     background-color: rgb(84, 191, 253);
-    font-weight: 600;
-    /* box-shadow: inset 260px 0 0 0 #54b3d6;
-    color: rgb(0, 0, 0); */
 }
 
 .navigation-bar {
@@ -40,10 +36,6 @@ a:hover {
     left: 0;
     right: 0;
     height: 36px;
-}
-
-.navigation-bar ul {
-    list-style: none;
 }
 
 .dropdown {
@@ -68,6 +60,19 @@ a:hover {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 38px;
+    height: 400px;
+    background-color: azure;
+    margin-left: 0;
+}
+
+.sidebar ul {
+    list-style: none;
 }
 
 /* Home page end */
