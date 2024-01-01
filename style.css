@@ -26,23 +26,24 @@ header {
 }
 
 nav {
-    background-color: #555;
+    background-color: rgb(85, 85, 85);
     overflow: hidden;
 }
 
-nav a {
+a {
     float: left;
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    transition: color 0.3s, background-color 0.3s;
+    transition: color 0.3s, background-color 0.3s, font-weight 0.3s;
 }
 
 nav a:hover {
-    background-color: rgb(221, 221, 221);
-    color: rgb(16, 67, 235);
+    background-color: rgb(255, 255, 255);
+    color: rgb(85, 85, 85);
+    font-weight: 500;
 }
 
 nav .dropdown {
@@ -61,8 +62,28 @@ nav .dropdown:hover .dropdown-content {
     display: block;
 }
 
+.sidebar {
+    position: fixed;
+    right: 0;
+    background-color: #a5a3a3;
+    transition: color 0.3s;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul a {
+    color: rgb(65, 64, 64);
+}
+
+.sidebar ul a:hover {
+    color: rgb(255, 255, 255);
+}
+
 section {
     padding: 20px;
+    
 }
 
 footer {
@@ -73,4 +94,8 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.selected-page {
+    color: rgb(0, 255, 13);
 }
