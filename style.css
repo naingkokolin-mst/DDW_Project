@@ -130,6 +130,7 @@ footer {
     position: relative;
     margin: 20px;
     border: black 1px dotted;
+    box-shadow: 4px 2px rgb(228, 176, 176);
     padding: 20px;
 }
 
