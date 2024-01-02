@@ -16,9 +16,18 @@ sans-serif; */
     padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin-left: 20px;
     font-family: 'Roboto', sans-serif;
+}
+
+.title-holder {
+    margin: 20px;
 }
 
 body {
@@ -27,6 +36,7 @@ body {
     overflow-y: auto;
     box-sizing: border-box;
     height: 100%;
+    margin-bottom: 45px;
 }
 
 header {
@@ -94,7 +104,7 @@ nav .dropdown:hover .dropdown-content {
 
 section {
     padding: 20px;
-    
+
 }
 
 footer {
@@ -105,13 +115,14 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    height: 20px;
 }
 
 .selected-page {
     color: rgb(0, 255, 13);
 }
 
-.paragraph-photo {
+.paragraph {
     display: flex;
     position: relative;
     margin-left: 20px;
@@ -119,17 +130,22 @@ footer {
     padding: 20px;
 }
 
-.paragraph-photo p {
+.paragraph p {
     width: 60%;
 }
 
-.paragraph-photo img {
+.paragraph img {
     margin-left: 20px;
     float: right;
-    width: 400px;
+    width: 350px;
 }
 
 p {
     font-family: 'Roboto', sans-serif;
     line-height: 1.4rem;
+}
+
+video {
+    width: 420px;
+    margin: 20px;
 }
