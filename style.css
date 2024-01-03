@@ -16,12 +16,7 @@ sans-serif; */
     padding: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     margin-left: 20px;
     font-family: 'Roboto', sans-serif;
 }
@@ -54,7 +49,7 @@ nav {
     z-index: 100;
 }
 
-a {
+nav a {
     float: left;
     display: block;
     color: white;
@@ -144,6 +139,15 @@ footer {
     width: 350px;
 }
 
+.paragraph a {
+    color: rgb(0, 60, 255);
+    transition: color 0.3s;
+}
+
+.paragraph a:hover {
+    color: rgb(255, 0, 170);
+}
+
 p {
     font-family: 'Roboto', sans-serif;
     line-height: 1.4rem;
@@ -153,3 +157,10 @@ video {
     width: 420px;
     margin: 20px;
 }
+
+.note {
+    font-style: italic;
+    color: red;
+}
+
+/* TODO: add media query */
