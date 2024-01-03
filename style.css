@@ -16,7 +16,12 @@ sans-serif; */
     padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin-left: 20px;
     font-family: 'Roboto', sans-serif;
 }
@@ -39,6 +44,15 @@ header {
     text-align: center;
     color: white;
     padding: 10px;
+}
+
+.welcome-text {
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    width: 50%;
+    font-style: italic;
+    color: darkred;
+    margin: 0;
 }
 
 nav {
@@ -84,7 +98,7 @@ nav .dropdown:hover .dropdown-content {
 .sidebar {
     position: fixed;
     right: 0;
-    background-color: #a5a3a3;
+    line-height: 1.5rem;
     transition: color 0.3s;
 }
 
@@ -97,7 +111,7 @@ nav .dropdown:hover .dropdown-content {
 }
 
 .sidebar ul a:hover {
-    color: rgb(255, 255, 255);
+    color: rgb(255, 13, 215);
 }
 
 section {
@@ -161,6 +175,32 @@ video {
 .note {
     font-style: italic;
     color: red;
+}
+
+.home-paragraph {
+    display: flex;
+    position: relative;
+    margin: 20px;
+    border: black 1px dotted;
+    box-shadow: 4px 5px rgb(110, 110, 110);
+    padding: 20px;
+}
+
+.home-paragraph p {
+    width: 60%;
+    text-align: left;
+}
+
+.home-list {
+    position: absolute;
+    right: 0;
+    color: white;
+    top: 7px;
+    transition: color 0.3s;
+}
+
+.home-list:hover {
+    color: rgb(0, 225, 255);
 }
 
 /* TODO: add media query */
