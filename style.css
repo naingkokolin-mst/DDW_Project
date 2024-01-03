@@ -97,6 +97,7 @@ nav .dropdown:hover .dropdown-content {
 
 .sidebar {
     position: fixed;
+    display: none;
     right: 0;
     line-height: 1.5rem;
     transition: color 0.3s;
