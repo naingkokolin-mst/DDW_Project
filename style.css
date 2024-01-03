@@ -33,7 +33,7 @@ h6 {
 body {
     margin: 0;
     padding: 0;
-    overflow-y: auto;
+    overflow-y: scroll;
     box-sizing: border-box;
     height: 100%;
     margin-bottom: 45px;
@@ -49,6 +49,9 @@ header {
 nav {
     background-color: rgb(85, 85, 85);
     overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 a {
@@ -125,8 +128,8 @@ footer {
 .paragraph {
     display: flex;
     position: relative;
-    margin-left: 20px;
-    border: none;
+    margin: 20px;
+    border: black 1px dotted;
     padding: 20px;
 }
 
