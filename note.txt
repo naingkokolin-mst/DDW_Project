@@ -4,3 +4,5 @@ https://www.healthline.com/nutrition/7-benefits-of-a-standing-desk
 https://www.youtube.com/watch?v=DTs0Pv2dn_o
 
 https://www.youtube.com/watch?v=9rdonc0Sm3U
+
+https://css-tricks.com/snippets/css/media-queries-for-standard-devices/          // for media query
