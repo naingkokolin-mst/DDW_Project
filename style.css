@@ -246,4 +246,19 @@ video {
     color: rgb(0, 225, 255);
 }
 
+button {
+    font-family: 'Oxygen', sans-serif;
+    background-color: rgb(238, 255, 0);
+    border: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 2px rgb(216, 198, 198);
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: rgb(144, 144, 247);
+    cursor: pointer;
+}
+
 /* TODO: add media query */

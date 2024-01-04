@@ -18,10 +18,11 @@
     <nav>
         <a href="index.html"><span class="selected-page">Home</span></a>
         <div class="dropdown">
-            <a href="rising_desks.html">Rising Desks</a>
+            <a href="rising_desks.html">Standing Desks</a>
             <div class="dropdown-content">
-                <a href="laptops.html">Laptop on desks</a>
-                <a href="floor.html">Floor Standing</a>
+                <a href="adjustable.html">Height-Adjustable Desks</a>
+                <a href="electric.html">Electric Desks</a>
+                <a href="fixed.html">Fixed Desks</a>
             </div>
         </div>
         <a href="health_benefits.html">Health Benefits</a>
@@ -30,13 +31,15 @@
             <a href="cart.html">Basket</a>
         </div>
         <a href="contact.html">Contact Us</a>
-        <button type="button" id="showMenu" onclick="showMenu()">
+        <a href="basket.html">Basket</a>
+        <a href="delivery.html">Delivery Service</a>
+        <!-- <button type="button" id="showMenu" onclick="showMenu()">
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
                 class="bi bi-list home-list" viewBox="0 0 16 16">
                 <path fill-rule="evenodd"
                     d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
             </svg>
-        </button>
+        </button> -->
         <!-- TODO: add js file to show sidebar  -->
         <!-- <script>
             function showMenu() {
@@ -115,7 +118,7 @@
                     Height-Adjustable Standing Desk 1 <br>
                     Price - 18000 Ks.
                 </p>
-                <button type="button">Add to Cart</button>
+                <button type="button" onclick="addToCart()">Add to Cart</button>
             </div>
             
             <div class="home-img-btn">
@@ -124,7 +127,7 @@
                     Height-Adjustable Standing Desk 2 <br>
                     Price - 21000 Ks.
                 </p>
-                <button type="button">Add to Cart</button>
+                <button type="button" onclick="addToCart()">Add to Cart</button>
             </div>
 
             <div class="home-img-btn">
@@ -133,7 +136,7 @@
                     Height-Adjustable Standing Desk 3 <br>
                     Price - 20000 Ks.
                 </p>
-                <button type="button">Add to Cart</button>
+                <button type="button" onclick="addToCart()">Add to Cart</button>
             </div>
 
             <div class="home-img-btn">
@@ -142,10 +145,18 @@
                     Height-Adjustable Standing Desk 4 <br>
                     Price - 28000 Ks.
                 </p>
-                <button type="button">Add to Cart</button>
+                <button type="button" onclick="addToCart()">Add to Cart</button>
             </div>
         </div>
     </main>
+
+    <script>
+        let numberOfItems = 0;
+        function addToCart() {
+            numberOfItems++;
+            alert("Added to the basket = " + numberOfItems);
+        }
+    </script>
 
     <footer>
         Copyright &copy; 2024 Naing Ko Ko Lin. All rights reserved.
