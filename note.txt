@@ -5,4 +5,6 @@ https://www.youtube.com/watch?v=DTs0Pv2dn_o
 
 https://www.youtube.com/watch?v=9rdonc0Sm3U
 
-https://css-tricks.com/snippets/css/media-queries-for-standard-devices/          // for media query
+https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+https://www.youtube.com/watch?v=69IbzTWg5PM
+// for media query
