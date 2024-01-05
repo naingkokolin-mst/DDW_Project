@@ -31,13 +31,61 @@
     </nav>
 
     <main>
-        <div class="basket-header">
-            <h3>Your Desks (Cart)</h3>
-        </div>
+        <main>
+            <h3 id="height-adjustable-sd" class="height-adjustable-header">Height-Adjustable Standing Desks</h3>
+            <div class="height-adjustable">
+                <div class="adjustable-img-btn">
+                    <img
+                        src="https://savv-e.co.uk/cdn/shop/files/Pacto-100cm-standing-desk-anthracite-Maple_631c117b-e01e-4e46-8a01-5b18610cec3c_1200x.jpg?v=1698060219">
+                    <p id="height-adjustable-1">
+                        Height-Adjustable Standing Desk 1 <br>
+                        Price - 18000 Ks <br>
+                        Quantity - <span id="height-adjustable-quantity-1">0</span>
+                    </p>
+                    <button type="button" onclick="addToCart('height-adjustable-quantity-1', 18000, 1)">Add to Cart</button>
+                </div>
+        
+                <div class="adjustable-img-btn">
+                    <img src="https://www.victortech.com/wp-content/uploads/dcx610b--01.png">
+                    <p>
+                        Height-Adjustable Standing Desk 2 <br>
+                        Price - 21000 Ks. <br>
+                        Quantity - <span id="height-adjustable-quantity-2">0</span>
+                    </p>
+                    <button type="button" onclick="addToCart('height-adjustable-quantity-2', 21000, 1)">Add to Cart</button>
+                </div>
+        
+                <div class="adjustable-img-btn">
+                    <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/81z4jXLvOIL.jpg">
+                    <p>
+                        Height-Adjustable Standing Desk 3 <br>
+                        Price - 20000 Ks. <br>
+                        Quantity - <span id="height-adjustable-quantity-3">0</span>
+                    </p>
+                    <button type="button" onclick="addToCart('height-adjustable-quantity-3', 20000, 1)">Add to Cart</button>
+                </div>
+        
+                <div class="adjustable-img-btn">
+                    <img src="https://vivo-us.com/cdn/shop/products/DESK-V000V_01a.jpg?v=1681735460">
+                    <p>
+                        Height-Adjustable Standing Desk 4 <br>
+                        Price - 28000 Ks. <br>
+                        Quantity - <span id="height-adjustable-quantity-4">0</span>
+                    </p>
+                    <button type="button" onclick="addToCart('height-adjustable-quantity-4', 28000, 1)">Add to Cart</button>
+                </div>
+            </div>
+        </main>
+        
+        <script>
+            let numberOfItems = 0;
+            function addToCart(id, price, quantity) {
+                numberOfItems += quantity;
+                alert("Added to the basket!");
+                document.getElementById(id).innerHTML = numberOfItems;
 
-        <div class="basket-whole-">
-            
-        </div>item
+            }
+        </script>
     </main>
     
 </body>

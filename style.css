@@ -182,7 +182,7 @@ video {
     display: flex;
     position: relative;
     margin: 20px;
-    border: black 1px dotted;
+    border: rgb(73, 67, 67) 1px solid;
     box-shadow: 4px 5px rgb(110, 110, 110);
     padding: 20px;
     margin-bottom: 20px;
@@ -229,7 +229,7 @@ video {
     flex-direction: row;
     align-items: center;
     border: black 1px solid;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 20px;
     padding: 10px;
 }
@@ -242,6 +242,7 @@ video {
 .adjustable-img-btn p {
     margin: 10px;
     flex: 1;
+    font-size: 20px;
 }
 
 .adjustable-img-btn button {
@@ -249,6 +250,7 @@ video {
     background-color: rgb(238, 255, 0);
     border: none;
     height: 30px;
+    font-size: 18px;
     flex: 1;
     font-weight: bold;
     color: rgb(0, 0, 0);
@@ -271,6 +273,26 @@ video {
 
 .home-list:hover {
     color: rgb(0, 225, 255);
+}
+
+.img-group {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3px 5px;
+}
+
+.img-set {
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-right: 5%;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.img-set img {
+    margin-top: 10px;
+    vertical-align: middle;
+    width: 45%;
 }
 
 /* TODO: add media query */
