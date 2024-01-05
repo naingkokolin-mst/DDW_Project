@@ -133,6 +133,7 @@ footer {
 
 .selected-page {
     color: rgb(0, 255, 13);
+    font-style: italic;
 }
 
 .paragraph {
@@ -140,6 +141,7 @@ footer {
     position: relative;
     margin: 20px;
     border: black 1px dotted;
+    border-radius: 20px;
     box-shadow: 4px 2px rgb(228, 176, 176);
     padding: 20px;
 }
@@ -171,6 +173,7 @@ p {
 video {
     width: 420px;
     margin: 20px;
+    border-radius: 20px;
 }
 
 .note {
@@ -184,6 +187,7 @@ video {
     margin: 20px;
     border: rgb(73, 67, 67) 1px solid;
     box-shadow: 4px 5px rgb(110, 110, 110);
+    border-radius: 20px;
     padding: 20px;
     margin-bottom: 20px;
 }
@@ -229,6 +233,7 @@ video {
     flex-direction: row;
     align-items: center;
     border: black 1px solid;
+    border-radius: 20px;
     justify-content: space-around;
     gap: 20px;
     padding: 10px;
@@ -249,6 +254,8 @@ video {
     font-family: 'Oxygen', sans-serif;
     background-color: rgb(238, 255, 0);
     border: none;
+    border-radius: 20px;
+    max-width: 240px;
     height: 30px;
     font-size: 18px;
     flex: 1;
@@ -279,6 +286,7 @@ video {
     display: flex;
     flex-wrap: wrap;
     padding: 3px 5px;
+    border-radius: 20px;
 }
 
 .img-set {
