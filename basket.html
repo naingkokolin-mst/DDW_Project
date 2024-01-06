@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,13 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="icons/bag-check-fill.svg" type="image/x-icon">
 </head>
+
 <body>
 
     <header>
         <h1>NKKL Standing Desks Ltd</h1>
     </header>
-    
+
     <nav>
         <a href="index.html">Home</a>
         <div class="dropdown">
@@ -31,62 +33,104 @@
     </nav>
 
     <main>
-        <main>
-            <h3 id="height-adjustable-sd" class="height-adjustable-header">Height-Adjustable Standing Desks</h3>
-            <div class="height-adjustable">
-                <div class="adjustable-img-btn">
-                    <img
-                        src="https://savv-e.co.uk/cdn/shop/files/Pacto-100cm-standing-desk-anthracite-Maple_631c117b-e01e-4e46-8a01-5b18610cec3c_1200x.jpg?v=1698060219">
-                    <p id="height-adjustable-1">
-                        Height-Adjustable Standing Desk 1 <br>
-                        Price - 18000 Ks <br>
-                        Quantity - <span id="height-adjustable-quantity-1">0</span>
-                    </p>
-                    <button type="button" onclick="addToCart('height-adjustable-quantity-1', 18000, 1)">Add to Cart</button>
-                </div>
-        
-                <div class="adjustable-img-btn">
-                    <img src="https://www.victortech.com/wp-content/uploads/dcx610b--01.png">
-                    <p>
-                        Height-Adjustable Standing Desk 2 <br>
-                        Price - 21000 Ks. <br>
-                        Quantity - <span id="height-adjustable-quantity-2">0</span>
-                    </p>
-                    <button type="button" onclick="addToCart('height-adjustable-quantity-2', 21000, 1)">Add to Cart</button>
-                </div>
-        
-                <div class="adjustable-img-btn">
-                    <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/81z4jXLvOIL.jpg">
-                    <p>
-                        Height-Adjustable Standing Desk 3 <br>
-                        Price - 20000 Ks. <br>
-                        Quantity - <span id="height-adjustable-quantity-3">0</span>
-                    </p>
-                    <button type="button" onclick="addToCart('height-adjustable-quantity-3', 20000, 1)">Add to Cart</button>
-                </div>
-        
-                <div class="adjustable-img-btn">
-                    <img src="https://vivo-us.com/cdn/shop/products/DESK-V000V_01a.jpg?v=1681735460">
-                    <p>
-                        Height-Adjustable Standing Desk 4 <br>
-                        Price - 28000 Ks. <br>
-                        Quantity - <span id="height-adjustable-quantity-4">0</span>
-                    </p>
-                    <button type="button" onclick="addToCart('height-adjustable-quantity-4', 28000, 1)">Add to Cart</button>
-                </div>
+        <h3 id="height-adjustable-sd" class="height-adjustable-header">Height-Adjustable Standing Desks</h3>
+        <div class="height-adjustable">
+            <div class="adjustable-img-btn">
+                <img
+                    src="https://savv-e.co.uk/cdn/shop/files/Pacto-100cm-standing-desk-anthracite-Maple_631c117b-e01e-4e46-8a01-5b18610cec3c_1200x.jpg?v=1698060219">
+                <p id="height-adjustable-1">
+                    Height-Adjustable Standing Desk 1 <br>
+                    Price - 18000 Ks <br>
+                </p>
+                <button type="button" onclick="addToCart('height-adjustable-quantity-1', 18000, 1)">
+                    Add to Cart
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                        class="bi bi-cart-plus" viewBox="0 0 16 16">
+                        <path
+                            d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9z" />
+                        <path
+                            d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                    </svg>
+                </button>
             </div>
-        </main>
-        
-        <script>
-            let numberOfItems = 0;
-            function addToCart(id, price, quantity) {
-                numberOfItems += quantity;
-                alert("Added to the basket!");
-                document.getElementById(id).innerHTML = numberOfItems;
 
-            }
-        </script>
+            <div class="adjustable-img-btn">
+                <img src="https://www.victortech.com/wp-content/uploads/dcx610b--01.png">
+                <p>
+                    Height-Adjustable Standing Desk 2 <br>
+                    Price - 21000 Ks. <br>
+                </p>
+                <button type="button" onclick="addToCart('height-adjustable-quantity-2', 21000, 1)">
+                    Add to Cart
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                        class="bi bi-cart-plus" viewBox="0 0 16 16">
+                        <path
+                            d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9z" />
+                        <path
+                            d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                    </svg>
+                </button>
+            </div>
+
+            <div class="adjustable-img-btn">
+                <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/81z4jXLvOIL.jpg">
+                <p>
+                    Height-Adjustable Standing Desk 3 <br>
+                    Price - 20000 Ks. <br>
+                </p>
+                <button type="button" onclick="addToCart('height-adjustable-quantity-3', 20000, 1)">
+                    Add to Cart
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                        class="bi bi-cart-plus" viewBox="0 0 16 16">
+                        <path
+                            d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9z" />
+                        <path
+                            d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                    </svg>
+                </button>
+            </div>
+
+            <div class="adjustable-img-btn">
+                <img src="https://vivo-us.com/cdn/shop/products/DESK-V000V_01a.jpg?v=1681735460">
+                <p>
+                    Height-Adjustable Standing Desk 4 <br>
+                    Price - 28000 Ks. <br>
+                </p>
+                <button type="button" onclick="addToCart('height-adjustable-quantity-4', 28000, 1)">
+                    Add to Cart
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                        class="bi bi-cart-plus" viewBox="0 0 16 16">
+                        <path
+                            d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9z" />
+                        <path
+                            d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                    </svg>
+                </button>
+            </div>
+        </div>
     </main>
-    
+
+    <div class="basket-count">
+        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-cart3"
+            viewBox="0 0 16 16">
+            <path
+                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+        </svg>
+        <p id="basket-counter">
+            0
+        </p>
+    </div>
+
+    <script>
+        let numberOfItems = 0;
+        function addToCart(id, price, quantity) {
+            numberOfItems += quantity;
+            alert("Added to the basket!");
+            document.getElementById('basket-counter').innerHTML = numberOfItems;
+        }
+    </script>
+
+
 </body>
+
 </html>

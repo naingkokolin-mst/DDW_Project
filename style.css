@@ -8,7 +8,7 @@ font-family: 'Oxygen',
 sans-serif; */
 
 /* font imports */
-@import url('https://fonts.googleapis.com/css2?family=Asap&family=Lora:wght@400;500&family=Oswald:wght@500&family=Oxygen&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Lora:wght@400;500&family=Red+Hat+Display&display=swap&family=Oswald:wght@500&family=Oxygen&family=Roboto&display=swap');
 
 * {
     text-decoration: none;
@@ -69,6 +69,7 @@ nav a {
     color: white;
     text-align: center;
     padding: 14px 16px;
+    border-radius: 20px;
     text-decoration: none;
     transition: color 0.3s, background-color 0.3s, font-weight 0.3s;
 }
@@ -230,24 +231,28 @@ video {
 
 .adjustable-img-btn {
     display: flex;
+    max-height: 400px;
     flex-direction: row;
     align-items: center;
     border: black 1px solid;
     border-radius: 20px;
+    box-shadow: 4px 5px rgb(110, 110, 110);
     justify-content: space-around;
     gap: 20px;
     padding: 10px;
 }
 
 .adjustable-img-btn img {
-    width: 300px;
+    max-width: 300px;
     flex: 1;
 }
 
 .adjustable-img-btn p {
     margin: 10px;
+    max-width: 400px;
     flex: 1;
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 2rem;
 }
 
 .adjustable-img-btn button {
@@ -261,12 +266,17 @@ video {
     flex: 1;
     font-weight: bold;
     color: rgb(0, 0, 0);
-    box-shadow: 2px 2px rgb(216, 198, 198);
+    box-shadow: 4px 3px 5px 2px rgb(116, 113, 113);
     transition: all 0.3s;
 }
 
+.adjustable-img-btn button img {
+    align-items: center;
+    width: 18px;
+}
+
 .adjustable-img-btn button:hover {
-    background-color: rgb(144, 144, 247);
+    background-color: rgb(91, 236, 34);
     cursor: pointer;
 }
 
@@ -301,6 +311,26 @@ video {
     margin-top: 10px;
     vertical-align: middle;
     width: 45%;
+}
+
+.basket-count {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: rgb(134, 238, 108);
+}
+
+.basket-count:hover {
+    cursor: pointer;
+}
+
+.basket-count p {
+    position: absolute;
+    font-size: 28px;
+    font-family: 'Red Hat Display', sans-serif;
+    color: red;
+    right: 0;
+    top: 0;
 }
 
 /* TODO: add media query */
