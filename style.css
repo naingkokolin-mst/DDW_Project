@@ -24,6 +24,7 @@ h5,
 h6 {
     margin-left: 20px;
     font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
 }
 
 .title-holder {
@@ -305,12 +306,15 @@ video {
     margin-right: 5%;
     vertical-align: middle;
     width: 100%;
+    padding: 20px;
 }
 
 .img-set img {
     margin-top: 10px;
     vertical-align: middle;
     width: 45%;
+    border: solid 1px black;
+    border-radius: 20px;
 }
 
 .basket-count {
@@ -331,6 +335,10 @@ video {
     color: black;
     right: 0;
     top: 0;
+}
+
+.electric-header {
+    margin-top: 20px;
 }
 
 /* TODO: add media query */
