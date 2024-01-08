@@ -369,6 +369,16 @@ video {
     margin-bottom: 20px;
 }
 
+.display-items {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 24px;
+    margin: 20px;
+    border: solid 1px black;
+    padding: 10px;
+    border-radius: 00px 20px 0px 20px;
+    box-shadow: 4px 3px 5px 2px rgb(116, 113, 113);
+}
+
 /* TODO: add media query */
 /* TODO: check every button in html code and change prices (in basket.html page) */
 
