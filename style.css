@@ -277,7 +277,7 @@ video {
 }
 
 .adjustable-img-btn button:hover {
-    background-color: rgb(91, 236, 34);
+    background-color: rgb(211, 208, 55);
     cursor: pointer;
 }
 
@@ -321,7 +321,7 @@ video {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    color: rgb(134, 238, 108);
+    color: rgb(0, 0, 0);
 }
 
 .basket-count:hover {
@@ -332,16 +332,18 @@ video {
     position: absolute;
     font-size: 28px;
     font-family: 'Red Hat Display', sans-serif;
-    color: black;
+    color: rgb(255, 0, 0);
     right: 0;
     top: 0;
 }
 
-.electric-header {
+.electric-header, .basket-header, .adjustable-header {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* TODO: add media query */
+/* TODO: check every button in html code and change prices (in basket.html page) */
 
 @media screen and (min-width: 481px) {
     
