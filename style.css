@@ -56,6 +56,33 @@ header {
     margin: 0;
 }
 
+/* dropdown menu  */
+.dropdown-side {
+    float: left;
+    overflow: hidden;
+
+}
+
+.btn-side {
+    font-size: 20px;
+    background-color: black;
+    color: white;
+
+}
+
+.droplist-side {
+    text-decoration: none;
+    display: none;
+    background-color: rgb(240, 235, 235);
+    min-width: 50px;
+    font-size: 20px;
+
+}
+
+.dropdown-side:hover .droplist-list {
+    display: block;
+}
+
 nav {
     background-color: rgb(85, 85, 85);
     overflow: hidden;
