@@ -344,22 +344,32 @@ video {
     border-radius: 20px;
 }
 
-.basket-count {
+.basket-container {
     position: fixed;
-    bottom: 20px;
+    top: 70px;
+    z-index: 110;
     right: 20px;
-    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 70px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+}
+
+.basket-count {
+    position: absolute;
+    color: rgb(100, 143, 0);
 }
 
 .basket-count:hover {
     cursor: pointer;
 }
 
-.basket-count p {
-    position: absolute;
+.basket-text{
     font-size: 28px;
     font-family: 'Red Hat Display', sans-serif;
-    color: rgb(255, 0, 0);
+    color: rgb(104, 100, 100);
     right: 0;
     top: 0;
 }
