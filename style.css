@@ -57,13 +57,13 @@ header {
 }
 
 /* dropdown menu  */
-.dropdown-side {
+/* .dropdown-side {
     float: left;
     overflow: hidden;
 
-}
+} */
 
-.btn-side {
+/* .btn-side {
     font-size: 20px;
     background-color: black;
     color: white;
@@ -81,11 +81,13 @@ header {
 
 .dropdown-side:hover .droplist-list {
     display: block;
-}
+} */
 
 nav {
     background-color: rgb(85, 85, 85);
     overflow: hidden;
+    display: flex;
+    flex-direction: row;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -110,6 +112,7 @@ nav a:hover {
 
 nav .dropdown {
     display: inline-block;
+    overflow: hidden;
 }
 
 nav .dropdown-content {
@@ -117,11 +120,12 @@ nav .dropdown-content {
     position: absolute;
     background-color: rgb(94, 90, 90);
     min-width: 160px;
-    z-index: 1;
+    z-index: 10;
 }
 
 nav .dropdown:hover .dropdown-content {
     display: block;
+    flex-direction: column;
 }
 
 .sidebar {
@@ -345,36 +349,34 @@ video {
 }
 
 .basket-container {
-    position: fixed;
-    top: 70px;
-    z-index: 110;
-    right: 20px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(247, 0, 0);
     width: 70px;
     height: 40px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     vertical-align: middle;
 }
 
 .basket-count {
     position: absolute;
-    color: rgb(100, 143, 0);
+    color: rgb(255, 255, 255);
 }
 
 .basket-count:hover {
     cursor: pointer;
 }
 
-.basket-text{
-    font-size: 28px;
+.basket-text {
+    font-size: 20px;
     font-family: 'Red Hat Display', sans-serif;
-    color: rgb(104, 100, 100);
+    color: rgb(255, 255, 255);
     right: 0;
     top: 0;
 }
 
-.electric-header, .basket-header, .adjustable-header {
+.electric-header,
+.basket-header,
+.adjustable-header {
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -392,6 +394,4 @@ video {
 /* TODO: add media query */
 /* TODO: check every button in html code and change prices (in basket.html page) */
 
-@media screen and (min-width: 481px) {
-    
-}
+@media screen and (min-width: 481px) {}
