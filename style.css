@@ -169,6 +169,7 @@ footer {
 
 .paragraph {
     display: flex;
+    flex-direction: row;
     position: relative;
     margin: 20px;
     border: black 1px dotted;
@@ -178,13 +179,15 @@ footer {
 }
 
 .paragraph p {
-    width: 60%;
+    flex: 2;
 }
 
 .paragraph img {
     margin-left: 20px;
     float: right;
-    width: 350px;
+    flex: 1;
+    max-width: 100%;
+    height: auto;
 }
 
 .paragraph a {
@@ -404,7 +407,23 @@ video {
     border-radius: 8px;
 }
 
+/* TODO: add image slide show  */
+/* TODO: add transparent text over image  */
+/* TODO: add search function */
 /* TODO: add media query */
-/* TODO: check every button in html code and change prices (in basket.html page) */
 
-@media screen and (min-width: 481px) {}
+@media screen and (min-width: 1300px) {}
+
+@media screen and (max-width:1299px) and (min-width:900px) {}
+
+@media screen and (max-width:899px) {
+    nav {
+        display: flex;
+        align-items: start;
+    }
+
+    .paragraph {
+        display: flex;
+        flex-direction: column;
+    }
+}
