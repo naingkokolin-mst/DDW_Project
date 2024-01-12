@@ -85,7 +85,6 @@ header {
 
 nav {
     background-color: rgb(85, 85, 85);
-    overflow: hidden;
     display: flex;
     flex-direction: row;
     position: sticky;
@@ -94,7 +93,7 @@ nav {
 }
 
 nav a {
-    float: left;
+    /* float: left; */
     display: block;
     color: white;
     text-align: center;
@@ -111,21 +110,22 @@ nav a:hover {
 }
 
 nav .dropdown {
-    display: inline-block;
-    overflow: hidden;
+    position: relative;
+    
 }
+
+nav .dropdown a {}
 
 nav .dropdown-content {
     display: none;
     position: absolute;
     background-color: rgb(94, 90, 90);
-    min-width: 160px;
     z-index: 10;
+    top: 20;
 }
 
 nav .dropdown:hover .dropdown-content {
     display: block;
-    flex-direction: column;
 }
 
 .sidebar {
@@ -349,16 +349,13 @@ video {
 }
 
 .basket-container {
-    background-color: rgb(247, 0, 0);
+    /* background-color: rgb(247, 0, 0); */
     width: 70px;
     height: 40px;
-    display: flex;
-    flex-direction: row;
-    vertical-align: middle;
+
 }
 
 .basket-count {
-    position: absolute;
     color: rgb(255, 255, 255);
 }
 
@@ -366,12 +363,17 @@ video {
     cursor: pointer;
 }
 
+.basket-count {
+    position: relative;
+}
+
 .basket-text {
     font-size: 20px;
     font-family: 'Red Hat Display', sans-serif;
-    color: rgb(255, 255, 255);
-    right: 0;
-    top: 0;
+    color: rgb(245, 8, 8);
+    right: 15px;
+    top: 5px;
+    position: absolute;
 }
 
 .electric-header,
