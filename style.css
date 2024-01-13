@@ -14,7 +14,7 @@ sans-serif; */
     text-decoration: none;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 body {
@@ -493,23 +493,23 @@ video {
 .slideshow-container {
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 70%;
+    top: 60%;
     left: 50%;
-    /* overflow: hidden; */
+    overflow: hidden;
     border: 10px solid #ffffff;
     border-radius: 20px;
 }
 
 .wrapper {
-    width: 70%;
+    width: 100%;
     display: flex;
     animation: slide 16s infinite;
 }
 
 .wrapper img {
     width: 100%;
-    margin-right: 20px;
-    border-radius: 20px;
+    /* margin-right: 20px;
+    border-radius: 20px; */
 }
 
 @keyframes slide {
