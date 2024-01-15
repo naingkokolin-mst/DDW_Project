@@ -65,7 +65,7 @@
                 </form>
             </div>
 
-            <div class="mini-form">
+            <div class="mini-form social-media-text">
                 <div class="icons">
                     <a href="https://www.facebook.com/" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="blue"
@@ -93,14 +93,15 @@
                 </div>
                 <p>
                     Don't hesitate to contact us. <br>
-                    You can also send your feedback and support message to our mail-address:
-                    <span>naingkokolin.mst@gmail.com</span>
+                    You can send your feedback and support message to our mail-address:
+                    <span>support@gmail.com</span>
                 </p>
             </div>
         </div>
     </main>
 
     <script>
+        // for send button
         function showInfo() {
             let firstName = document.getElementById('firstName').value;
             let lastName = document.getElementById('lastName').value;
@@ -114,6 +115,7 @@
             alert("Your name is " + firstName + " " + lastName + " and Your email is " + email + ". Thanks for contacting us.");
         }
 
+        // for cancel button
         function clearInfo() {
             alert("Cleared all infomations!");
             document.getElementById('input-form').reset();
