@@ -1,0 +1,5 @@
+Test Report for Task 3
+
+I checked all html files in W3C valdation website whether this file has error or not.
+This website said that I need to add alternative tag in all img tag. So, I added all needed alternative
+tags. 
