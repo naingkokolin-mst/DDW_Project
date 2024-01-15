@@ -407,7 +407,6 @@ video {
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 10px;
     flex-direction: row;
 }
 
@@ -418,10 +417,12 @@ video {
 
 .mini-form {
     display: flex;
+    flex: 1;
+    max-width: 30%;
     flex-direction: column;
     border: white 1px solid;
     border-radius: 20px;
-    box-shadow: 4px 3px 5px 2px rgb(116, 113, 113);
+    box-shadow: 4px 3px 4px 3px rgb(113, 113, 113);
     padding: 20px;
 }
 
@@ -430,8 +431,31 @@ video {
     flex: 1;
 }
 
+.mini-form span {
+    text-decoration: underline;
+}
+
+.mini-form p {
+    font-family: 'Oxygen', sans-serif;
+}
+
+.mini-form input {
+    border-radius: 10px;
+    border: solid rgb(196, 186, 45) 1px;
+    padding: 2px;
+}
+
 .mini-form button {
-    flex: 1;
+    border: 1px black solid;
+    padding: 0 30px;
+    background-color: silver;
+    border-radius: 10px;
+    color: black;
+    transition: box-shadow 0.3s;
+}
+
+.mini-form button:hover {
+    box-shadow: 1px 1px 2px 2px rgb(101, 101, 80);
 }
 
 .contact-header {
