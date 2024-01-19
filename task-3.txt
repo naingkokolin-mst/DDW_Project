@@ -5,3 +5,10 @@ This website said that I need to add alternative tag in all img tag. So, I added
 tags. For all accessibilities, I have to put this alter tag. 
     In basket.html file, the valdation website showed that doesn't have any error or fault. I have already added 
 alter tag in img for disabled users. But, I noticed I didn't added access keys. 
+    In contact.html file, the website said I need to change 'for' attribute of the 'label' element in the form
+not to be the same. 
+    In electric.html and fixed.html files, I need to add alter attribute in all img tags.
+    In health_benefits.html page, I need to change name of video that is used in source of the video tag.
+The valdation website said that there shouldn't be any space in the name of the that video. So, I changed
+the name of the video not to have any space by replacing with underscore.
+    I forgot to add alter tag in all images in index.html file.
