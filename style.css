@@ -67,33 +67,6 @@ header {
     margin: 0;
 }
 
-/* dropdown menu  */
-/* .dropdown-side {
-    float: left;
-    overflow: hidden;
-
-} */
-
-/* .btn-side {
-    font-size: 20px;
-    background-color: black;
-    color: white;
-
-}
-
-.droplist-side {
-    text-decoration: none;
-    display: none;
-    background-color: rgb(240, 235, 235);
-    min-width: 50px;
-    font-size: 20px;
-
-}
-
-.dropdown-side:hover .droplist-list {
-    display: block;
-} */
-
 nav {
     background-color: rgb(85, 85, 85);
     display: flex;
@@ -451,13 +424,6 @@ video {
 }
 
 .mini-form button {
-    /* border: 1px black solid;
-    padding: 0 30px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    color: black;
-    transition: box-shadow 0.3s; */
-
     background-color: #c2fbd7;
     border-radius: 100px;
     margin: 0px 10px;
