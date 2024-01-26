@@ -478,8 +478,19 @@ video {
 .mini-form button:hover {
     /* box-shadow: 1px 1px 2px 2px rgb(101, 101, 80); */
     box-shadow: rgba(44, 187, 99, .35) 0-25px 18px -14px inset, rgba(44, 187, 99, 25) 0 1px 2px rgba(44, 187, 99, .25) Ø 2px 4px, rgba(44, 187, 99, .25) 0 4px 8px, rgba(44, 187, 99, .25) 08px 16px, rgba(44, 187, 99, .25) 0 16px 32px;
-    transform: scale(1.15) rotate(360deg);
+    transform: scale(1.05) rotate(-10deg);
 }
+
+.btns {
+    display: flex;
+    flex-direction: row;
+}
+
+.btns button{
+    max-width: 30%;
+}
+
+
 
 .mini-form .icons {
     display: flex;
@@ -618,14 +629,6 @@ video {
         transform: translateX(-300%);
     }
 }
-
-/* TODO: add search function */
-/* TODO: add media query */
-
-
-/* @media screen and (min-width: 1300px) {}
-
-@media screen and (max-width:1299px) and (min-width:900px) {} */
 
 @media screen and (max-width:750px) {
     .m-nav {

@@ -63,8 +63,14 @@
             </div>
 
             <div class="mini-form social-media-text">
-                <label for="message">Message:</label><br>
-                <input type="text" name="message" id="message" placeholder="Enter Message" maxlength="40"><br><br>
+                <form id="message-form">
+                    <label for="message">Message:</label><br>
+                    <input type="text" name="message" id="message" placeholder="Enter Message" maxlength="40"><br><br>
+                    <div class="btns">
+                        <button type="submit" onclick="showMessage()" class="send-btn">Send</button><br>
+                        <button type="submit" onclick="clearMessage()">Clear</button>
+                    </div> <br>
+                </form>
                 <div class="icons">
                     <a href="https://www.facebook.com/" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="blue"
@@ -118,6 +124,15 @@
         function clearInfo() {
             alert("Cleared all infomations!");
             document.getElementById('input-form').reset();
+        }
+
+        // for show message button
+        function showMessage() {
+            alert("Done");
+        }
+
+        function clearMessage() {
+            document.getElementById('message-form').reset();
         }
     </script>
 
